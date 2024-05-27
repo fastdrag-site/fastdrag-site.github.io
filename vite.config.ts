@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: "/fastdrag.github.io/"
+  base: "/fastdrag.github.io/",
 })
