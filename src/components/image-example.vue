@@ -91,7 +91,7 @@
   
   <style scoped>
   .title {
-    align-items: center;
+    text-align: center;
   }
   .image-grid {
     display: flex;
