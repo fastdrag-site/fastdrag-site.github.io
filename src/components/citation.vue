@@ -4,13 +4,13 @@
     <div class="code-block">
       <pre><code>
         @misc{zhao2024fastdrag,
-          title={FastDrag: Manipulate Anything in One Step}, 
-          author={Xuanjia Zhao and Jian Guan and Congyi Fan and Dongli Xu and Youtian Lin and Haiwei Pan and Pengming Feng},
-          year={2024},
-          eprint={2405.15769},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV}
-    }
+              title={FastDrag: Manipulate Anything in One Step}, 
+              author={Xuanjia Zhao and Jian Guan and Congyi Fan and Dongli Xu and Youtian Lin and Haiwei Pan and Pengming Feng},
+              year={2024},
+              eprint={2405.15769},
+              archivePrefix={arXiv},
+              primaryClass={cs.CV}
+              }
       </code></pre>
     </div>
   </div>
