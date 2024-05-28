@@ -25,27 +25,26 @@
   background-color: #f5f5f5;
   color: #4a4a4a;
   font-size: 14px;
-  margin: 0 auto;
   padding: 10px;
   overflow-x: auto; /* 横向滚动条，保证长代码不撑破容器 */
   border-radius: 10px;
   font-family: monospace;
   -webkit-font-smoothing: auto;
   white-space: pre-wrap; /* 保留空格和换行 */
-  max-width: 80%; /* 初始最大宽度设为80% */
+  margin: 0 auto; /* 居中对齐 */
+  max-width: 100%; /* 最大宽度设为100% */
+  box-sizing: border-box; /* 包括内边距和边框 */
 }
 
 @media (max-width: 768px) {
   .code-block {
     font-size: 12px; /* 缩小字体 */
-    max-width: 90%; /* 增大最大宽度 */
   }
 }
 
 @media (max-width: 480px) {
   .code-block {
     font-size: 10px; /* 进一步缩小字体 */
-    max-width: 95%; /* 增大最大宽度 */
   }
 }
 </style>

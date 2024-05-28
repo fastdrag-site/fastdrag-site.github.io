@@ -81,18 +81,6 @@
   width: 150px;
   height: 50px;
   font-size: 20px;
-  margin: 50px 50px;
-}
-.button {
-  width: 150px;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin: 50px 50px;
-}
-.bg {
-  height: 500px;
 }
 .text-center {
   text-align: center;
@@ -102,7 +90,6 @@
   font-size: 48px;
   color: #000;
   line-height: 1.125;
-  margin: 100px auto 0;
 }
 .margin {
   margin: 20px;
