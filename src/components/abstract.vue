@@ -1,12 +1,9 @@
 <template>
-    <div
-        class="flex center column border f-start"
-        style="width: 50%; margin: 0 auto"
-      >
-        <div class="text-center h">Abstract</div>
-        <div class="border p-text margin text-justify">
-            <a-typography-text >
-                We present the first method capable of photorealistically
+  <div class="container flex center column border f-start">
+    <div class="text-center h">Abstract</div>
+    <div class="border p-text margin text-justify">
+      <a-typography-text>
+        We present the first method capable of photorealistically
                 reconstructing a non-rigidly deforming scene using photos/videos
                 captured casually from mobile phones. Our approach augments neural
                 radiance fields (NeRF) by optimizing an additional continuous
@@ -26,56 +23,81 @@
                 viewpoints. We show that our method faithfully reconstructs
                 non-rigidly deforming scenes and reproduces unseen views with high
                 fidelity.
-            </a-typography-text>
-            
-        </div>
-      </div>
+      </a-typography-text>
+    </div>
+  </div>
 </template>
+
 <style scoped>
-.bg-padding {
-  padding: 20px 0 0px;
+.container {
+  width: 50%;
+  margin: 0 auto;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-justify {
   text-align: justify;
 }
-.title {
-  font-weight: 550;
-  font-size: 50px;
-  color: #8b53d5;
-  margin: 50px auto 0;
-}
+
 .p-text {
   font-size: 20px;
-  font: "Helvetica Neue";
+  font-family: "Helvetica Neue";
 }
+
 .h {
   font-size: 36px;
 }
+
 .margin {
   margin: 20px;
 }
+
 .link-text {
   font-size: 20px;
 }
+
 .card-padding {
   padding: 0 auto;
 }
+
 .flex {
   display: flex;
 }
+
 .row {
   flex-direction: row;
 }
+
 .column {
   flex-direction: column;
 }
+
 .center {
   justify-content: center;
 }
+
 .f-start {
   justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .p-text {
+    font-size: 16px;
+  }
+
+  .h {
+    font-size: 28px;
+  }
+
+  .margin {
+    margin: 10px;
+  }
 }
 </style>
