@@ -32,7 +32,7 @@
   -webkit-font-smoothing: auto;
   white-space: pre-wrap; /* 保留空格和换行 */
   margin: 0 auto; /* 居中对齐 */
-  max-width: 100%; /* 最大宽度设为100% */
+  max-width: 60%; /* 最大宽度设为100% */
   box-sizing: border-box; /* 包括内边距和边框 */
 }
 

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import many_images from "./components/many_images.vue";
-import card from "./components/card.vue";
 import title_header from "./components/title_header.vue";
 import example from "./components/example.vue";
 import abstract from "./components/abstract.vue";
 import citation from "./components/citation.vue";
 import images from "./components/image-example.vue";
+import approach from "./components/approach.vue";
+import compare from "./components/compare.vue"
 </script>
 
 <template>
@@ -15,12 +15,13 @@ import images from "./components/image-example.vue";
   <abstract></abstract>
   <a-divider />
   <!-- 总图 -->
-  <!-- <div class="flex center margin">
-    <img src="./assets/big_all.png" width="65%" />
-  </div> -->
-  <!-- 例子 -->
-  <!-- <example></example> -->
+  <approach></approach>
+  <a-divider />
+  <!-- 例子图片 -->
   <images></images>
+  <a-divider />
+  <!-- 对比 -->
+  <compare></compare>
   <a-divider />
   <!-- 引用 -->
   <citation></citation>
@@ -41,12 +42,12 @@ html, body {
   padding: 0;
 }
 
-.title-header, .abstract, .images, .citation {
+.title-header, .abstract, .images, .citation .approach {
   padding: 0 10px; /* 增加左右内边距 */
 }
 
 @media (max-width: 768px) {
-  .title-header, .abstract, .images, .citation {
+  .title-header, .abstract, .images, .citation .approach {
     padding: 0 5px; /* 移动设备上减少左右内边距 */
   }
 

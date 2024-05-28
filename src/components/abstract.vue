@@ -3,26 +3,7 @@
     <div class="text-center h">Abstract</div>
     <div class="border p-text margin text-justify">
       <a-typography-text>
-        We present the first method capable of photorealistically
-                reconstructing a non-rigidly deforming scene using photos/videos
-                captured casually from mobile phones. Our approach augments neural
-                radiance fields (NeRF) by optimizing an additional continuous
-                volumetric deformation field that warps each observed point into a
-                canonical 5D NeRF. We observe that these NeRF-like deformation fields
-                are prone to local minima, and propose a coarse-to-fine optimization
-                method for coordinate-based models that allows for more robust
-                optimization. By adapting principles from geometry processing and
-                physical simulation to NeRF-like models, we propose an elastic
-                regularization of the deformation field that further improves
-                robustness. We show that Nerfies can turn casually captured selfie
-                photos/videos into deformable NeRF models that allow for
-                photorealistic renderings of the subject from arbitrary viewpoints,
-                which we dub "nerfies". We evaluate our method by collecting data
-                using a rig with two mobile phones that take time-synchronized photos,
-                yielding train/validation images of the same pose at different
-                viewpoints. We show that our method faithfully reconstructs
-                non-rigidly deforming scenes and reproduces unseen views with high
-                fidelity.
+        Drag-based image editing using generative models provides precise control over image contents, enabling users to manipulate anything in an image with a few clicks. However, prevailing methods typically adopt n-step iterations for latent semantic optimization to achieve drag-based image editing, which is time-consuming and limits practical applications. In this paper, we introduce a novel one-step dragbased image editing method, i.e., FastDrag, to accelerate the editing process. Central to our approach is a latent warpage function (LWF), which simulates the behavior of a stretched material to adjust the location of individual pixels within the latent space. This innovation achieves one-step latent semantic optimization and hence significantly promotes editing speeds. Meanwhile, null regions emerging after applying LWF are addressed by our proposed bilateral nearest neighbor interpolation (BNNI) strategy. This strategy interpolates these regions using similar features from neighboring areas, thus enhancing semantic integrity. Additionally, a consistency-preserving strategy is introduced to maintain the consistency between the edited and original images by adopting semantic information from the original image, saved as key and value pairs in self-attention module during diffusion inversion, to guide the diffusion sampling. Our FastDrag is validated on the DragBench dataset, demonstrating substantial improvements in processing time over existing methods, while achieving enhanced editing performance. 
       </a-typography-text>
     </div>
   </div>
