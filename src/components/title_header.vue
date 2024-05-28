@@ -14,20 +14,23 @@
       <el-col :span="24">
         <div class="text-center link-text">
           <!-- Xuanjia Zhao and Jian Guan and Congyi Fan and Dongli Xu and Youtian Lin and Haiwei Pan and Pengming Feng -->
-          <el-link :underline="false" href="" target="_blank" type="primary">Xuanjia Zhao</el-link>
-          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=wf60G1sAAAAJ" target="_blank" type="primary">Jian Guan</el-link>
-          <el-link :underline="false" href="" target="_blank" type="primary">Congyi Fan</el-link>
-          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=BfZECLsAAAAJ" target="_blank" type="primary">Dongli Xu</el-link>
-          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=VhhHLhIAAAAJ" target="_blank" type="primary">Youtian Lin</el-link>
-          <el-link :underline="false" href="" target="_blank" type="primary">Haiwei Pan</el-link>
-          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=O51mMKgAAAAJ" target="_blank" type="primary">Pengming Feng</el-link>
+          <el-link :underline="false" href="" target="_blank" type="primary">Xuanjia Zhao<sup>1</sup></el-link>
+          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=wf60G1sAAAAJ" target="_blank" type="primary">Jian Guan<sup>1*</sup></el-link>
+          <el-link :underline="false" href="" target="_blank" type="primary">Congyi Fan<sup>1</sup></el-link>
+          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=BfZECLsAAAAJ" target="_blank" type="primary">Dongli Xu<sup>2</sup></el-link>
+          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=VhhHLhIAAAAJ" target="_blank" type="primary">Youtian Lin<sup>3</sup></el-link>
+          <el-link :underline="false" href="" target="_blank" type="primary">Haiwei Pan<sup>1</sup></el-link>
+          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=O51mMKgAAAAJ" target="_blank" type="primary">Pengming Feng<sup>4</sup></el-link>
         </div>
       </el-col>
     </el-row>
     <el-row justify="center" class="margin">
-      <el-col :span="24">
-        <div class="text-center link-text">Harbin Engineering University</div>
-      </el-col>
+      <a-space size="large">
+        <a-typography-text bold class="text-center"><sup>1</sup>Harbin Engineering University</a-typography-text>
+        <a-typography-text bold class="text-center"><sup>2</sup>Independent Researcher</a-typography-text>
+        <a-typography-text bold class="text-center"><sup>3</sup>Nanjing University</a-typography-text>
+        <a-typography-text bold class="text-center"><sup>4</sup>SGIIT</a-typography-text>
+      </a-space>
     </el-row>
 
     <!-- 跳转按钮 -->
@@ -84,6 +87,7 @@
 }
 .text-center {
   text-align: center;
+  font-size: 20px;
 }
 .title {
   font-weight: 700;
@@ -100,6 +104,7 @@
 .link-text {
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 70px;
 }
 .card-padding {
   padding: 0 auto;
