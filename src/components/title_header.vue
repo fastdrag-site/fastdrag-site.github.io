@@ -104,7 +104,7 @@
 .link-text {
   font-size: 20px;
   font-weight: 400;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .card-padding {
   padding: 0 auto;
