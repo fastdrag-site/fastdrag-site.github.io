@@ -17,7 +17,7 @@
           <el-link :underline="false" href="" target="_blank" type="primary">Xuanjia Zhao<sup>1</sup></el-link>
           <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=wf60G1sAAAAJ" target="_blank" type="primary">Jian Guan<sup>1*</sup></el-link>
           <el-link :underline="false" href="" target="_blank" type="primary">Congyi Fan<sup>1</sup></el-link>
-          <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=BfZECLsAAAAJ" target="_blank" type="primary">Dongli Xu<sup>2</sup></el-link>
+          <el-link :underline="false" href="https://donglixu.site/" target="_blank" type="primary">Dongli Xu<sup>2</sup></el-link>
           <el-link :underline="false" href="https://linyou.github.io/" target="_blank" type="primary">Youtian Lin<sup>3</sup></el-link>
           <el-link :underline="false" href="" target="_blank" type="primary">Haiwei Pan<sup>1</sup></el-link>
           <el-link :underline="false" href="https://scholar.google.com/citations?hl=en&user=O51mMKgAAAAJ" target="_blank" type="primary">Pengming Feng<sup>4</sup></el-link>
