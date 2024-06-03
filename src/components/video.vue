@@ -1,5 +1,5 @@
 <template>
-    <a-typography-title class="title">Vedio</a-typography-title>
+    <a-typography-title class="title">Video</a-typography-title>
     <div id="video-container">
         <video-player
             src="program.mp4"
