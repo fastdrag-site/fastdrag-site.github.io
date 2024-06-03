@@ -9,6 +9,7 @@
         />
     </div>
 </template>
+
 <style scoped>
 .title {
     text-align: center;
@@ -26,20 +27,29 @@ video-player {
     max-width: 100%;
 }
 </style>
-<script>
+
+<script lang="ts">
+import { onMounted, onBeforeUnmount } from 'vue';
+
 export default {
-    mounted() {
-        this.setMaxWidth();
-        window.addEventListener('resize', this.setMaxWidth);
-    },
-    beforeDestroy() {
-        window.removeEventListener('resize', this.setMaxWidth);
-    },
-    methods: {
-        setMaxWidth() {
+    setup() {
+        const setMaxWidth = () => {
             const videoContainer = document.getElementById('video-container');
-            videoContainer.style.maxWidth = `${window.innerWidth}px`;
-        }
+            if (videoContainer) {
+                videoContainer.style.maxWidth = `${window.innerWidth}px`;
+            }
+        };
+
+        onMounted(() => {
+            setMaxWidth();
+            window.addEventListener('resize', setMaxWidth);
+        });
+
+        onBeforeUnmount(() => {
+            window.removeEventListener('resize', setMaxWidth);
+        });
+
+        return {};
     }
 }
 </script>

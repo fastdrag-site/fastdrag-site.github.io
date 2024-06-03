@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import title_header from "./components/title_header.vue";
-import example from "./components/example.vue";
 import abstract from "./components/abstract.vue";
 import citation from "./components/citation.vue";
 import images from "./components/image-example.vue";
@@ -18,6 +17,7 @@ import video from "./components/video.vue";
   <!-- 总图 -->
   <approach></approach>
   <a-divider />
+  <!-- 视频 -->
   <video></video>
   <a-divider />
   <!-- 例子图片 -->
