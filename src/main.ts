@@ -11,8 +11,6 @@ import '@arco-design/web-vue/dist/arco.css';
 import VueVideoPlayer from '@videojs-player/vue'
 import 'video.js/dist/video-js.css'
 
-// import router from './router'
-
 const app = createApp(App);
 
 app.use(ElementPlus);

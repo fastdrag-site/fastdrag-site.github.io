@@ -28,28 +28,22 @@ video-player {
 }
 </style>
 
-<script lang="ts">
-import { onMounted, onBeforeUnmount } from 'vue';
+<script setup lang="ts">
+// import { onMounted, onBeforeUnmount } from 'vue';
 
-export default {
-    setup() {
-        const setMaxWidth = () => {
-            const videoContainer = document.getElementById('video-container');
-            if (videoContainer) {
-                videoContainer.style.maxWidth = `${window.innerWidth}px`;
-            }
-        };
+// const setMaxWidth = () => {
+//     const videoContainer = document.getElementById('video-container');
+//     if (videoContainer) {
+//         videoContainer.style.maxWidth = `${window.innerWidth}px`;
+//     }
+// };
 
-        onMounted(() => {
-            setMaxWidth();
-            window.addEventListener('resize', setMaxWidth);
-        });
+// onMounted(() => {
+//     setMaxWidth();
+//     window.addEventListener('resize', setMaxWidth);
+// });
 
-        onBeforeUnmount(() => {
-            window.removeEventListener('resize', setMaxWidth);
-        });
-
-        return {};
-    }
-}
+// onBeforeUnmount(() => {
+//     window.removeEventListener('resize', setMaxWidth);
+// });
 </script>
