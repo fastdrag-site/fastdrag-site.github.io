@@ -6,6 +6,7 @@ import citation from "./components/citation.vue";
 import images from "./components/image-example.vue";
 import approach from "./components/approach.vue";
 import compare from "./components/compare.vue"
+import vedio from "./components/vedio.vue";
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import compare from "./components/compare.vue"
   <a-divider />
   <!-- 总图 -->
   <approach></approach>
+  <a-divider />
+  <vedio></vedio>
   <a-divider />
   <!-- 例子图片 -->
   <images></images>
