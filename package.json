@@ -14,7 +14,8 @@
     "element-plus": "^2.7.3",
     "video.js": "^7.21.6",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue-template-compiler": "^2.7.16"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.55.2",
