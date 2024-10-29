@@ -8,7 +8,14 @@
         </div>
       </el-col>
     </el-row>
-
+    <!-- 副标题 -->
+    <el-row justify="center">
+      <el-col :span="24" class="margin">
+        <div class="text-center subtitle">
+          NeurIPS 2024
+        </div>
+      </el-col>
+    </el-row>
     <!-- 作者 -->
     <el-row justify="center" class="margin" :gutter="20">
       <el-col :span="24">
@@ -24,14 +31,44 @@
         </div>
       </el-col>
     </el-row>
-    <el-row justify="center" class="margin">
+    <!-- <el-col justify="center" class="margin">
       <a-space size="large">
-        <a-typography-text bold class="text-center"><sup>1</sup>Harbin Engineering University</a-typography-text>
+        <el-row>
+          <a-typography-text bold class="text-center"><sup>1</sup>College of Computer Science and Technology, Harbin Engineering University</a-typography-text>
+        </el-row>
+        <el-row>
         <a-typography-text bold class="text-center"><sup>2</sup>Independent Researcher</a-typography-text>
-        <a-typography-text bold class="text-center"><sup>3</sup>Nanjing University</a-typography-text>
-        <a-typography-text bold class="text-center"><sup>4</sup>SGIIT</a-typography-text>
+        </el-row>
+        <el-row>
+          <a-typography-text bold class="text-center"><sup>3</sup>School of Intelligence Science and Technology, Nanjing University</a-typography-text>
+        </el-row>
+        <el-row>
+        <a-typography-text bold class="text-center"><sup>4</sup>State Key Laboratory of Space-Ground Integrated Information Technology</a-typography-text>
+        </el-row>      
       </a-space>
+    </el-col> -->
+
+    <el-row justify="center" class="margin">
+      <el-col :span="10.5"> <!-- 控制宽度让其居中 -->
+        <a-space size="large" direction="vertical">
+          <a-typography-text bold class="text-center">
+            1 College of Computer Science and Technology, Harbin Engineering University
+          </a-typography-text>
+          <a-typography-text bold class="text-center">
+            2 Independent Researcher
+          </a-typography-text>
+          <a-typography-text bold class="text-center">
+            3 School of Intelligence Science and Technology, Nanjing University
+          </a-typography-text>
+          <a-typography-text bold class="text-center">
+            4 State Key Laboratory of Space-Ground Integrated Information Technology
+          </a-typography-text>
+        </a-space>
+      </el-col>
     </el-row>
+    
+
+    
 
     <!-- 跳转按钮 -->
     <el-row justify="center" class="margin">
@@ -94,6 +131,12 @@
   font-size: 48px;
   color: #000;
   line-height: 1.125;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 30px;
+  color: #ff0000;
+  line-height: 0.725;
 }
 .margin {
   margin: 20px;
