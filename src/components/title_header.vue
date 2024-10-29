@@ -47,7 +47,7 @@
             </a-button>
           </a-link>
           <a-link :hoverable="false">
-            <a-button class="a-button">
+            <a-button class="a-button" href="https://github.com/XuanjiaZ/FastDrag" target="blank">
             <template #icon>
               <icon-github />
             </template>
